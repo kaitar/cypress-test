@@ -1,0 +1,27 @@
+{
+    "env": {
+        "environment": "staging",
+        "ssoUrl": "https://www.deltadefensedev.com/sso",
+        "loginUrl": "https://portal.usccadev.com",
+        "myusccaUrl": "https://my.usccadev.com",
+        "partnerDashboardUrl": "https://opp-partner-dashboard-staging.netlify.app",
+        "pdDomain": "opp-partner-dashboard-staging.netlify.app",
+        "checkoutUrl": "https://checkout.deltadefensedev.com",
+        "checkout": {
+            "url": "https://checkout.deltadefensedev.com",
+            "params": "/?productId=",
+            "productId": {
+                "eliteLifetime": "d6492ef4-57c3-46ea-9722-26fed141c036",
+                "eliteAnnual": "f36086cb-b6c6-4f26-99e4-29505991dc99",
+                "eliteMonthly": "2769a36a-68b5-447f-878b-86362082fbae",
+                "eliteAnnual10": "83062444-df12-4c5e-97ae-7c4a8b626919",
+                "eliteMonthly10": "2aa03e02-0da9-4195-89bc-04352ff6e0fd",
+                "eliteAnnual15": "bd2812ff-ba28-483b-9d25-044f43cad68f",
+                "eliteMonthly15": "51077e28-c27e-4b9d-9a4f-670cad5812ec",
+                "eliteAnnual20": "179cfd50-934d-4617-a597-5a0be23346e8",
+                "eliteAnnual50": "58ace596-2731-4a68-bd0d-3ed14c80d36e",
+                "eliteAnnual100": "f14d530d-ba02-4e92-8b55-6a6c75d6ad26"
+            }
+        }
+    }
+}

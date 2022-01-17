@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://www.uscca.com",
+    "env": {
+        "environment": "production",
+        "ssoUrl": "https://www.deltadefense.com/sso",
+        "loginUrl": "https://portal.uscca.com",
+        "myusccaUrl": "https://my.uscca.com",
+        "partnerDashboardUrl": "https://partner.usconcealedcarry.com/",
+        "checkoutUrl": "https://checkout.deltadefense.com"
+    }
+}

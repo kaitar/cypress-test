@@ -1,0 +1,7 @@
+Directions for installation/running
+
+1. Clone repo
+2. While in the base directory where you cloned the repo, execute the following command:
+npm i
+3. After all depedencies have installed, from the main directory execute:
+./node_modules/.bin/cypress open --env configFile=staging

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "target": "es5",
+        "lib": ["es5", "dom"],
+        "types": [
+            "cypress",
+            "node",
+            "@testing-library/cypress",
+            "@percy/cypress",
+            "cypress-localstorage-commands",
+            "cypress-wait-until",
+            "cypress-xpath"
+        ]
+    },
+    "include": [
+        "**/**/**/*.ts",
+        "cypress/constants/restApi/auth/authEndPoints.js",
+        "cypress/support/index.ts",
+        "plugins/index.js",
+        "support/index.ts"
+    ]
+}

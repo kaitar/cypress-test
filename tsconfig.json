@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "../node_modules",
+        "resolveJsonModule": true,
+        "target": "es5",
+        "lib": ["es5", "dom"],
+        "types": [
+            "cypress",
+            "node",
+            "@testing-library/cypress",
+            "@percy/cypress",
+            "cypress-localstorage-commands",
+            "@applitools/eyes-cypress"
+        ]
+    },
+    "include": ["**/*.*", "**/**/**/*.ts", "cypress/support/index.ts"],
+    "files": ["./node_modules/@applitools/eyes-cypress/eyes-index.d.ts"]
+}

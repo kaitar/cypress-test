@@ -1,0 +1,10 @@
+{
+    "baseUrl": "http://www.usccadev.com",
+    "env": {
+        "environment": "dev",
+        "ssoUrl": "https://www.deltadefensedev.com/sso",
+        "loginUrl": "https://portal.usccadev.com",
+        "myusccaUrl": "https://my.usccadev.com",
+        "partnerDashboardUrl": "https://opp-partner-dashboard-deving.netlify.app/"
+    }
+}

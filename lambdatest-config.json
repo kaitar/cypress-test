@@ -1,0 +1,36 @@
+{
+    "lambdatest_auth": {
+        "username": "teresa.benson@uscca.com",
+        "access_key": "p5GHf3Do0bQ9Hh1dDUPo2X5isH2tV9phRirgNxbp2FvJbPt9nV"
+    },
+    "browsers": [
+        {
+            "browser": "Chrome",
+            "platform": "macOS Big Sur",
+            "versions": ["86.0"]
+        },
+        {
+            "browser": "Firefox",
+            "platform": "macOS Big Sur",
+            "versions": ["82.0"]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "cypress.json",
+        "build_name": "build-visual-testing",
+        "parallels": 5,
+        "specs": "./cypress/integration/**/checkoutTests.ts",
+        "ignore_files": "",
+        "feature_file_suppport": false,
+        "network": false,
+        "headless": false,
+        "npm_dependencies": {
+            "cypress": "9.1.1"
+        },
+        "reporter_config_file": ""
+    },
+    "tunnel_settings": {
+        "tunnel": false,
+        "tunnel_name": null
+    }
+}
